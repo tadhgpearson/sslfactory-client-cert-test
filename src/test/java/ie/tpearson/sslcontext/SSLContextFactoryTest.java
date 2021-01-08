@@ -29,6 +29,9 @@ class SSLContextFactoryTest {
         assertTrue(rsStatus >= 200 && rsStatus < 400);
 
         String responseBody = IOUtils.getContent(response.getEntity().getContent());
+//        System.out.println(responseBody);
         assertFalse(responseBody.contains("No SSL client certificate presented"));
     }
+
+
 }
