@@ -39,13 +39,15 @@
 		<dependency>
 			<groupId>io.github.hakky54</groupId>
 			<artifactId>sslcontext-kickstart</artifactId>
-			<version>6.1.0</version>
+			<version>6.1.1-SNAPSHOT</version>
 		</dependency>
+
 		<dependency>
 			<groupId>io.github.hakky54</groupId>
 			<artifactId>sslcontext-kickstart-for-pem</artifactId>
-			<version>6.1.0</version>
+			<version>6.1.1-SNAPSHOT</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
